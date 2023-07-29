@@ -1,0 +1,20 @@
+Copy title and URL of the active tab in plain text format by one click.
+This extension does not use content scripts and will work on chrome:// pages.
+
+Copy title and URL of the active tab in Markdown format by one click.
+This extension does not use content scripts and will work even on chrome:// pages.
+
+単一用途
+アクティブなタブのタイトルとURLをコピーするという単一の用途を持った拡張機能です。
+
+権限が必要な理由
+
+activeTab
+アクティブなタブのタイトルとURLの取得に必要です。
+要求する権限を最小限にするため、tabs権限ではなく、activeTab権限を要求しております。
+
+offscreen
+Content scriptsを使用せずにクリップボードに書き込むために必要です。
+
+clipboardWrite
+この拡張機能の用途であるクリップボードへのコピーの実現のために必要です。

@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Copy title and URL (Markdown)",
+    "version": "1.0.0",
+    "action": {
+        "default_icon": {
+            "128": "images/icon128.png"
+        },
+        "default_title": "Copy title and URL (Markdown)"
+    },
+    "description": "Copy title and URL (Markdown)",
+    "icons": {
+        "128": "images/icon128.png"
+    },
+    "permissions": ["activeTab", "offscreen", "clipboardWrite"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
