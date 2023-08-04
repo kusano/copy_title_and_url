@@ -1,5 +1,5 @@
 Copy title and URL of the active tab in plain text format by one click.
-This extension does not use content scripts and will work on chrome:// pages.
+This extension does not use content scripts and will work even on chrome:// pages.
 
 Copy title and URL of the active tab in Markdown format by one click.
 This extension does not use content scripts and will work even on chrome:// pages.
