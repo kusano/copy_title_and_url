@@ -41,7 +41,6 @@ function escape(original) {
             c=="(" ||
             c==">" ||
             c=="<" ||
-            c==" " ||
             c=="\\"
         ) {
             escaped += "\\";
